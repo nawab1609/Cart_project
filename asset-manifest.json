@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cart_project/static/css/main.24a81d69.css",
+    "main.css": "/cart_project/static/css/main.ab505ada.css",
     "main.js": "/cart_project/static/js/main.aebc79cf.js",
     "static/media/order.gif": "/cart_project/static/media/order.15978e036c74a70d0187.gif",
     "static/media/Nike.jpg": "/cart_project/static/media/Nike.f133b055278e47aa0373.jpg",
@@ -99,11 +99,11 @@
     "static/media/logo.jpg": "/cart_project/static/media/logo.cd1cb6ed7248e355efa6.jpg",
     "static/media/marble-inspired-skincare.jpg": "/cart_project/static/media/marble-inspired-skincare.81447a2e8b362e8e1edb.jpg",
     "index.html": "/cart_project/index.html",
-    "main.24a81d69.css.map": "/cart_project/static/css/main.24a81d69.css.map",
+    "main.ab505ada.css.map": "/cart_project/static/css/main.ab505ada.css.map",
     "main.aebc79cf.js.map": "/cart_project/static/js/main.aebc79cf.js.map"
   },
   "entrypoints": [
-    "static/css/main.24a81d69.css",
+    "static/css/main.ab505ada.css",
     "static/js/main.aebc79cf.js"
   ]
 }
