@@ -110,7 +110,7 @@ export default function Home() {
             <div className="col-sm-4 my-3">
               <Link to={data.Path} className="nav-link">
               <div className="card text-center">
-                <img src={data.Image} className="card-img-top" height="500px" />
+                <img src={data.Image} className="card-img-top" height="800px" />
                 <div className="card-body">
                   <h3 className="card-title my-3">{data.Title}</h3>
                 </div>
