@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useEffect } from "react";
 import Navbar from "./Components/Navbar";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter,HashRouter, Route, Routes } from "react-router-dom";
 import Home from "./Components/Home";
 import Makeup from "./Components/Makeup";
 import Perfume from "./Components/Perfume";
@@ -76,7 +76,7 @@ export default function Layout() {
   };
   return (
     <>
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Navbar size={cartData.length} />}>
           <Route index element={<Home />} />
@@ -96,7 +96,7 @@ export default function Layout() {
         </Route>
       </Routes>
     <Footer/>
-    </BrowserRouter>
+    </HashRouter>
     </>
   );
 }
